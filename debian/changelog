@@ -1,3 +1,9 @@
+erlang (1:22.2.7+dfsg-1bb1) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Tue, 15 Dec 2020 23:00:11 +0100
+
 erlang (1:22.2.7+dfsg-1) unstable; urgency=medium
 
   * New upstream release.
