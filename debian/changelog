@@ -1,3 +1,16 @@
+erlang (1:22.2.7+dfsg-1ubuntu0.4) focal-security; urgency=medium
+
+  * SECURITY UPDATE: denial of service
+    - debian/patches/CVE-2025-30211-pre1.patch: reduce log length.
+      plain connections.
+    - debian/patches/CVE-2025-30211-1.patch: ignore too long names.
+    - debian/patches/CVE-2025-30211-2.patch: use chars_limit for bad
+      packets error messages.
+    - debian/patches/CVE-2025-30211-3.patch: custom_kexinit test added.
+    - CVE-2025-30211
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Wed, 02 Apr 2025 19:31:34 +0200
+
 erlang (1:22.2.7+dfsg-1ubuntu0.3bb1) focal; urgency=medium
 
   * Balabit patched version
